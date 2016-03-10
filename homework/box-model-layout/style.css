@@ -1,0 +1,36 @@
+
+.container {
+
+	background-color: gray;
+	padding: 20px;
+	margin: 0 auto;
+	width: 960px;
+	
+}
+.nav {
+color: white;
+ text-align: center;
+ background-color: black;
+ margin: 30px;
+ padding: 20px;
+}
+p {
+	text-align: center;
+}
+.orange {
+background-color: red;
+margin: 30px;
+padding: 20px;
+}
+
+#one {
+	color: purple;
+}
+
+#two {
+	color: green;
+}
+
+#three {
+	color: yellow;
+}
