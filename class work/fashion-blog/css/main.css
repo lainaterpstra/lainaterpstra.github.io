@@ -1,0 +1,54 @@
+body {
+	line-height: 1.5;
+	color:  #444444;
+	font-family: Lato;
+	font-weight: 300;
+}
+
+    
+
+.container {
+	width: 720px;
+	padding: 54px;
+
+}
+
+h1 {
+	color: #DD0000;
+	line-height: 1.5;
+	font-family: Lato;
+	font-weight: 300;
+
+}
+
+.navlist {
+	 color: #dddddd;
+	 font-family: Lato;
+	 line-height: 1.5;
+}
+
+nav p a {
+	color: #dddddd;
+}
+
+a {
+	color: red;
+}
+
+article {
+	border-bottom: 2px solid #dddddd;
+	padding: ;
+}
+
+#imageone {
+	max-width: 720px;
+}
+
+#imagetwo {
+	max-width: 720px;
+}
+
+.continues {
+	text-align: right;
+}
+      
