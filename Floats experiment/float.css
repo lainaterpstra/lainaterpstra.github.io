@@ -1,0 +1,31 @@
+header {
+	font-size: 50px;
+	height: 200px;
+	padding:10px;
+	margin: 20px;
+	border: 2px solid black;
+
+}
+
+nav {
+	padding: 20px;
+	border: 2px solid black;
+ 	width: 200px;
+    height: 700px;
+    margin: 20px;
+    float: left;
+    
+}
+
+
+ img {
+        width: 200px;
+        padding: 10px;
+        border: 2px solid black;
+        margin-top: 20px;
+        float: left;
+        margin: 20px;
+    }
+  .clear {
+    clear: both;
+  }
