@@ -1,0 +1,95 @@
+
+
+header {
+	
+	border-bottom: 3px solid yellow;
+	background-color: black;
+	height: 70px;
+}
+
+
+h1 {
+	float: left;
+	color: yellow;
+}
+
+nav {
+	float: right;
+	color: white;
+	margin-top: 20px;
+	margin-right: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+.firstclear {
+	clear: both;
+}
+
+.greyband {
+	height: 70px;
+	background: grey;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+	padding-top: 20px;
+}
+
+button {
+	background-color: yellow;
+}
+
+.mainimage {
+	height: 550px;
+	background-image: url("../img/coworking.jpg");
+
+}
+
+.greybox {
+	height: 400px;
+	width: 300px;
+	background: grey;
+	float: right;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+.meetyourmatch {
+ 	padding: 20px;
+}
+
+section	{
+	height: 200px;
+	background: grey;
+}
+
+article {
+	float: left;
+	width: 250px;
+	padding: 30px;
+}
+
+section button {
+	background: grey;
+}
+
+footer {
+	height: 70px;
+	background: black;
+	margin: 0;
+}
+
+#footertext {
+	font-size: 20px;
+	color: white;
+
+
+}
+
+
