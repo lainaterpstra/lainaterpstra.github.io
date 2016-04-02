@@ -9,23 +9,39 @@ body {
      font-size: 45px;
      padding: 70px 10px 10px 10px;
      border-left: 20px dotted black;
-     border-bottom: 2px solid black;
- }
-.home {
-    padding: 20px;
-    padding-bottom: 40px;
-    font-size: 20px;
      
-
+     display: inline-block;
+ }
+.first {
+  overflow: auto;
+  border-bottom: 2px solid black;
+  margin-bottom: 30px;
 }
+
+
+#home {
+
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+   
+}
+
+
 a {
      text-decoration: none;
-      color: black; 
+      color: black;  
+      display: inline-block;
 }
-
 
  a:hover {
       color: red;
+ }
+
+
+ .clear {
+    clear: both;
  }
 
     h2 {
@@ -36,29 +52,33 @@ a {
  .sidebar {
   
     float: left;
-    border: 5px solid black;
-    padding: 10px 10px;
+    border: 2px solid black;
     width: 350px;
     height: 600px;
-    font-size: 20px;
     overflow: auto;
+    padding: 30px;
 }
 
 ul img {
-    width: 80px;
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 
   img {
-		margin-top: 30px;
-		width: 500px;
- 	 	padding: 50px;
+	margin-top: 30px;
+        width: 500px;
+      
 }
   		
-}
+
 	.image {
 		text-align: center;
         margin: 0 auto;
+
+
 }
 
   
