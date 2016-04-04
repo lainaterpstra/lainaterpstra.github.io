@@ -5,10 +5,11 @@ body {
 }
 
   h1 {
-     font-family: 'Poiret One', cursive;
-     font-size: 45px;
+     font-family: 'Oswald', sans-serif;
+     font-size: 20px;
+     letter-spacing: 10px;
      padding: 70px 10px 10px 10px;
-     border-left: 20px dotted black;
+   
      
      display: inline-block;
  }
@@ -52,7 +53,7 @@ a {
  .sidebar {
   
     float: left;
-    border: 2px solid black;
+  
     width: 350px;
     height: 600px;
     overflow: auto;
