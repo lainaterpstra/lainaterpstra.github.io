@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 $('#one').click (function() {
-	$('.image').attr('src', '../new_work_oils/IMG_1929.jpg');
+	$('.image').attr('src', '../new_work_oils/adorationo_Sheep_17x14.jpg');
 })
 
 $('#two').click (function() {

@@ -1,46 +1,58 @@
+.container {
+  
+      margin: 70px 70px 70px 70px;
+      height: 1200px;
+}
+
 body {
     background: white;
     color: black;
-    margin: 100px 100px 100px 100px;
-}
+     font-family: 'Oswald', sans-serif;
+     
+    }
+
 
   h1 {
-     font-family: 'Oswald', sans-serif;
      font-size: 20px;
-     letter-spacing: 10px;
-     padding: 10px 10px 10px 10px;
+     letter-spacing: 15px;
+     padding: 10px 10px 10px 20px;
      display: inline-block;
+     float: left;
  }
 
 
 .first {
-  overflow: auto;
-  border-bottom: 2px solid black;
+
+  border-bottom: 
   margin-bottom: 10px;
-  height: 100px;
+  height: 50px;
 }
 
 
 #home {
 
-    padding: 20px;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 30px;
-    padding-left: 50px;
+    
+   
    
 }
 
+nav {
+  padding-top: 5px;
+  float: right;
+
+}
 
 a {
 
-     text-decoration: none;
-      color: black;  
-      display: inline-block;
-     padding: 20px;
-    font-size: 20px;
-    margin-bottom: 20px;
+    text-decoration: none;
+    color: black;  
+    display: inline-block;
+    padding: 10px;
+    font-size: 10px;
+    margin-bottom: 40px;
     margin-top: 30px;
+    letter-spacing: 5px;
+
 }
 
  a:hover {
@@ -61,32 +73,33 @@ a {
  .sidebar {
   
     float: left;
-    width: 500px;
+    width: 200px;
     height: 500px;
     overflow: auto;
-    padding: 30px;
-    margin-top: 120px;
+    padding: 30px, 30px, 30px, 0px;
+    margin-top: 100px;
+
 }
 
 ul img {
-    width: 80px;
-    height: 80px;
-    padding: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
     margin: 0 auto;
 }
 
 
   img {
-	margin-top: 170px;
-  padding-left: 90px;
-        width: 500px;
+	margin-top: 110px;
+  padding-left: 150px;
+  width: 400px;
       
 }
   		
 
 	.image {
 		text-align: center; 
-        margin-top: 200;
+    margin-top: 200;
 }
 
   

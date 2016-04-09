@@ -1,67 +1,67 @@
 
 .container {
   
-      margin: 100px 100px 100px 100px;
+     margin: 30px 70px 30px 70px;
       height: 1200px;
 }
+
 
 body {
     background: white;
     color: black;
-    margin: 100px 100px 100px 100px;
+    font-family: 'Oswald', sans-serif;
 }
 
-  header {
-     font-family: 'Oswald', sans-serif;
-     letter-spacing: 25px;
-     font-size: 40px;
-     font-weight: 1px;
+h1 {
+   float: left;
+   font-size: 25px;
+   letter-spacing: 15px;
+}
+
+  .first {
+
+     font-size: 30px;
      color: black;
-     padding: 70px 5px 5px 0px;
-     border-bottom: 2px solid black;
+     padding: 40px 5px 5px 0px;
     
-      margin: 100px 100px 100px 100px;
      
  }
 
 
-ul {
-    
-    float: left;
-    border-left: 2px solid black;
-    padding-top: 170px;
-    padding-left: 50px;
-    width: 300px;
-    height: 700px;
-    font-size: 35px;
-     margin: 100px 100px 100px 100px;
+nav {
+  display: inline-block;
+  margin-left: 20px;
 
 }
-
- li {
-    list-style-type: none;
-    color: black;
- }
-
 
     a  {
     color: black;
-    text-decoration: none;
-
+    text-decoration: none; 
+    display: inline-block;
+    padding: 5px;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    letter-spacing: 5px;
 }
+
 
  a:hover {
  	  color: red;
  }
 
+ .clear {
+    clear: both;
+ }
+
   img {
-        margin-top: 200px;
-        height: 800px;
-        text-align: center;
-        padding: 50px;
+      margin-top: 60px;
+      height: 400px;
+      padding: 20px;
         
 }
+
     .image {
-        text-align: center;
+      text-align: center;
 }
 
