@@ -1,13 +1,19 @@
 $(document).ready(function () {
 
 
-var finput = $("#farenheit").val()
-var cinput = $("#celsius").val()
+$("convertoC").click(function () {
 
-$('#ConvertoC').click(function () {
+var finput = $("#farenheitinput").val();
+finput = parseInt(finput) * 1.8 + 32;
+$('celciusoutput').html() = finput;
 
-finput = parseInt('finput') * 1.8 + 32;
-$('finput').value;
+})
+
+$("convertoF").click(function () {
+
+var cinput = $("#celsiusinput").val()
+cinput = parseInt(cinput) * 1.8 + 32;
+$('celciusoutput').html() = cinput;
 
 })
 

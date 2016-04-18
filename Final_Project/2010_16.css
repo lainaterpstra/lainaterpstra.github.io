@@ -1,3 +1,4 @@
+
 .container {
   
       margin: 70px 70px 70px 70px;
@@ -8,9 +9,7 @@ body {
     background: white;
     color: black;
      font-family: 'Oswald', sans-serif;
-     
     }
-
 
   h1 {
      font-size: 20px;
@@ -20,20 +19,10 @@ body {
      float: left;
  }
 
-
 .first {
-
-  border-bottom: 
+ 
   margin-bottom: 10px;
   height: 50px;
-}
-
-
-#home {
-
-    
-   
-   
 }
 
 nav {
@@ -58,6 +47,9 @@ a {
  a:hover {
       color: red;
 
+ }
+ a:active {
+  color: red;
  }
 
 

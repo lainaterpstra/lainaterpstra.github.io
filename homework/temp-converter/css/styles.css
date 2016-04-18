@@ -3,3 +3,12 @@ div {
 	margin-top: 200px;
 }
 
+input {
+	height: 30px;
+	width: 90px;
+}
+
+
+p {
+	display: inline-block;
+}
