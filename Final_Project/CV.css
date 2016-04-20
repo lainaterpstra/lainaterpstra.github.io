@@ -9,11 +9,11 @@ body {
 	background: white;
 	color: black;
 	font-family: 'Oswald', sans-serif;
-	font-size: 5;
+
 }
 
  h1 {
-     font-size: 20px;
+     font-size: 23px;
      letter-spacing: 15px;
      padding: 10px 10px 10px 20px;
      display: inline-block;
@@ -21,7 +21,6 @@ body {
  }
 
  .first {
- 
   margin-bottom: 10px;
   height: 50px;
 }
@@ -29,6 +28,7 @@ body {
 nav {
   padding-top: 5px;
   float: right;
+  padding-right: 70px;
 
 }
 
@@ -71,9 +71,6 @@ p {
 	font-size: 10;
 }
 
-
-
-}
 
 .footer {
 	padding: 20px;

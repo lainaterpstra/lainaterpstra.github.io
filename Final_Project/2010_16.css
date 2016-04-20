@@ -2,7 +2,7 @@
 .container {
   
       margin: 70px 70px 70px 70px;
-      height: 1200px;
+      width: 100%;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     }
 
   h1 {
-     font-size: 20px;
+     font-size: 23px;
      letter-spacing: 15px;
      padding: 10px 10px 10px 20px;
      display: inline-block;
@@ -28,6 +28,7 @@ body {
 nav {
   padding-top: 5px;
   float: right;
+  padding-right: 70px;
 
 }
 
@@ -48,6 +49,7 @@ a {
       color: red;
 
  }
+
  a:active {
   color: red;
  }
@@ -84,7 +86,7 @@ ul img {
   img {
 	margin-top: 110px;
   padding-left: 150px;
-  width: 400px;
+  width: 40%;
       
 }
   		
@@ -93,5 +95,19 @@ ul img {
 		text-align: center; 
     margin-top: 200;
 }
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 15px;
+  }
+
+  a {
+    font-size: 8px;
+  }
+  img
+  }
+
+
 
   

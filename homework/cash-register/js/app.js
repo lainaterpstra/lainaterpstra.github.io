@@ -22,16 +22,17 @@ $("#entry").submit(function(){
 	var input = parseInt($("#newEntry").val())
 	
 	
-total(input);
+sum(input);
 
 	})
 
-function total (input) {
+function sum (input) {
 
-$(#entries).append("<tr>" + "<td></td><td>" + input + "</td>" + "</tr>")
+$('#entries').append("<tr>" + "<td></td><td>" + input + "</td>" + "</tr>")
 total = total + input
 $('#total').text('$'+ total)
 $('#newEntry').val('')
+
 
 
 }

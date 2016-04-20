@@ -1,5 +1,8 @@
 $(document).ready(function () {
 
+
+	
+
 $('#one').click (function() {
 	$('.image').attr('src', '../new_work_oils/Grid_DeHooch.jpg');
 })
