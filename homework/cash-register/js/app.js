@@ -37,3 +37,16 @@ $('#newEntry').val('')
 
 }
 })
+
+//sublit= enter key
+// submit can only work on a form element
+// when you submit a form, the default behavior is to refresh the page
+// .val() only works on <input> tag
+// in js, when we pull content out of our html, it comes to us as a string.
+// parseFloat can deal with decimals, whereas  parse Int  does not
+
+
+
+
+
+
