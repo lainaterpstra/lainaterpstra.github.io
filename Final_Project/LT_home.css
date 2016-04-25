@@ -1,7 +1,7 @@
 
 .container {
   
-     margin: 70px 70px 30px 70px;
+     margin: 70px 70px 70px 70px;
      width: 100%;
 }
 
@@ -32,7 +32,7 @@ h1 {
 nav {
    padding-top: 5px;
    padding-right: 70px;
-  float: right;
+   float: right;
 
 }
 
@@ -58,13 +58,26 @@ nav {
 
   img {
       margin-top: 60px;
-      width: 60%;
-      padding: 20px;
-        
+      width: 60%;     
 }
 
     .image {
       text-align: center;
+}
+#caption {
+  font-size: 10px;
+
+}
+
+#mobile-nav {
+  display: none;
+}
+.fa fa-bars {
+  display: none ;
+}
+#threelines_copy.png{
+  background-color: black;
+  border: 2px solid black;
 }
 
 @media (max-width: 480px) {
@@ -84,5 +97,17 @@ nav {
   display:  block;
 }
 }
+
+@media (max-width: 875px) {
+
+ #large-nav {
+  display: none;
+ }
+ #burger {
+  display: block;
+  float: right;
+  margin-top: 5px;
+ }
+ }
 
 

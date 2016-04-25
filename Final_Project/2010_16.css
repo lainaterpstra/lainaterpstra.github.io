@@ -11,6 +11,10 @@ body {
     font-family: 'Oswald', sans-serif;
     }
 
+    p {
+      text-align: center;
+    }
+
   h1 {
      font-size: 23px;
      letter-spacing: 15px;

@@ -22,7 +22,7 @@ h2 {
 
 h3 {
 	font-family: 'Merriweather', serif;
-	font-size: 1.25em;
+	/*font-size: 1.25em;*/
 	font-weight: bold;
 }
 
@@ -157,3 +157,59 @@ footer {
 	color: white;
 	padding: 2% 3%;
 }
+#three-lines {
+	display:none;
+}
+
+#mobile-nav {
+	display: none;
+}
+
+ #mobile-nav li a {
+ 	display: block;
+ 	background: rgb(222,222,222);
+ 	text-align: center;
+ 	font-size: 20px;
+ 	color: black;
+ 	text-decoration: none;
+ 	padding: 10px;
+ }
+ #mobile-nav a:hover {
+ 	background: black;
+ 	color: white;
+ }
+  @media (max-width: 938px) {
+
+ #default-nav {
+ 	display: none;
+ }
+ #three-lines {
+ 	display: block;
+ 	float: right;
+ 	margin-top: 5px;
+ }
+  .blurb {
+
+   		float: none;
+   		text-align: center;
+   		width: 60%;
+   	}
+
+   	.tout {
+   		float: none;
+   		width: 100%;
+   		text-align: center;
+
+   	}
+
+   	h3 {
+   		font-size: 8px;
+   	}
+  
+
+
+ }
+   @media (max-width: 538px) {
+
+   	 
+   }
