@@ -21,3 +21,5 @@ $('#five').click (function() {
 })
 
 })
+
+//get the text inside p tag, set it equal to 
