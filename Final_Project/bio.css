@@ -28,12 +28,10 @@ body {
 nav {
   padding-top: 5px;
   float: right;
-  padding-right: 70px;
+  padding-right: 10%;
 
 }
-#empty-space {
-  height: 70px;
-}
+
 
 a {
 

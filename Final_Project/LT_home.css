@@ -31,8 +31,8 @@ h1 {
 
 nav {
    padding-top: 5px;
-   padding-right: 70px;
    float: right;
+   padding-right: 10%;
 
 }
 
@@ -49,65 +49,122 @@ nav {
 
 
  a:hover {
- 	  color: red;
+ 	    color: red;
  }
 
  .clear {
-    clear: both;
+      clear: both;
  }
 
   img {
       margin-top: 60px;
-      width: 60%;     
+      width: 60%;  
+      margin-right: 50px;   
 }
 
     .image {
       text-align: center;
 }
+
 #caption {
-  font-size: 10px;
+      font-size: 10px;
 
 }
 
 #mobile-nav {
   display: none;
+  margin-top: 50px;
+  float: left;
+  clear: right;
+  padding left: 0px;
 }
-.fa fa-bars {
+
+#mobile-clear {
+  clear: right;
+}
+
+
+ nav ul a {
+  display: block;
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+ }
+
+ ul {
+  padding-left: 15px;
+ }
+
+ #mobile-nav a:hover {
+  background: black;
+  color: white;
+ }
+
+
+
+.fa  {
   display: none ;
 }
-#threelines_copy.png{
-  background-color: black;
-  border: 2px solid black;
+
+#smallest-nav {
+  display:none;
+
+
+}
+#smallest-nav ul a {
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
 }
 
-@media (max-width: 480px) {
 
-  h1 {
-     font-size: 15px;
-  }
+ #smallest-nav a:hover {
+  background: black;
+  color: white;
+ }
 
-   nav a {
-    font-size: 8px;
-    display:  block;
-    margin-top: none;
-    margin-bottom: none;
-  }
 
-nav {
-  display:  block;
-}
-}
 
-@media (max-width: 875px) {
+@media (max-width: 1069px) {
 
- #large-nav {
+#large-nav {
   display: none;
  }
- #burger {
-  display: block;
-  float: right;
-  margin-top: 5px;
- }
- }
+ 
+#mobile-nav {
+  display:  block;
+  float: left;
 
+}
+
+#mobile-clear {
+  clear: ;
+}
+
+
+}
+
+@media (max-width: 642px) {
+
+  .fa {
+    display: inline-block;
+    padding-top: 35px;
+    padding-left: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+
+
+}
+
+ 
 

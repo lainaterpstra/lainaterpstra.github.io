@@ -28,7 +28,7 @@ body {
 nav {
   padding-top: 5px;
   float: right;
-  padding-right: 70px;
+  padding-right: 10%;
 
 }
 
@@ -65,21 +65,24 @@ li {
 
 section {
 	padding: 20px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2 {
+  
 	 letter-spacing: 7px;
      font-size: 15px;
 
 }
 
 p {
-	font-family: 'Oswald', sans-serif;
+  
 	font-size: 10;
 }
 
 
 .footer {
+  font-family: 'Josefin Sans', sans-serif;
 	padding: 20px;
 	margin-top: 50px;
 	font-size: 20px;
