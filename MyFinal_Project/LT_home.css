@@ -1,0 +1,170 @@
+
+.container {
+  
+     margin: 70px 70px 70px 70px;
+     width: 100%;
+}
+
+
+body {
+    background: white;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  
+   font-size: 23px;
+   letter-spacing: 15px;
+   padding: 10px 10px 10px 20px;
+   display: inline-block;
+   float: left;
+}
+
+  .first {
+
+      margin-bottom: 10px;
+      height: 50px; 
+    
+ }
+
+
+nav {
+   padding-top: 5px;
+   float: right;
+   padding-right: 10%;
+
+}
+
+    a  {
+    color: black;
+    text-decoration: none; 
+    display: inline-block;
+    padding: 10px;
+    font-size: 10px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    letter-spacing: 5px;
+}
+
+
+ a:hover {
+ 	    color: red;
+ }
+
+ .clear {
+      clear: both;
+ }
+
+  img {
+      margin-top: 60px;
+      width: 60%;  
+      margin-right: 50px;   
+}
+
+    .image {
+      text-align: center;
+}
+
+#caption {
+      font-size: 10px;
+
+}
+
+#mobile-nav {
+  display: none;
+  margin-top: 50px;
+  float: left;
+  clear: right;
+  padding left: 0px;
+}
+
+#mobile-clear {
+  clear: right;
+}
+
+
+ nav ul a {
+  display: block;
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+ }
+
+ ul {
+  padding-left: 15px;
+ }
+
+ #mobile-nav a:hover {
+  background: black;
+  color: white;
+ }
+
+
+
+.fa  {
+  display: none ;
+}
+
+#smallest-nav {
+  display:none;
+
+
+}
+#smallest-nav ul a {
+  display: inline-block;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+ #smallest-nav a:hover {
+  background: black;
+  color: white;
+ }
+
+
+
+@media (max-width: 1069px) {
+
+#large-nav {
+  display: none;
+ }
+ 
+#mobile-nav {
+  display:  block;
+  float: left;
+
+}
+
+#mobile-clear {
+  clear: ;
+}
+
+
+}
+
+@media (max-width: 642px) {
+
+  .fa {
+    display: inline-block;
+    padding-top: 35px;
+    padding-left: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+
+
+}
+
+ 
+
