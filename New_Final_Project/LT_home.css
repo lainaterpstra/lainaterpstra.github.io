@@ -7,6 +7,7 @@ body {
 .container {
 /*  margin: 70px 70px 70px 70px;*/
   width: 100%;
+
   }
 
 h1 {
@@ -42,7 +43,9 @@ p {
 }
 
 .first {
-
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
   margin-bottom: 10px;
   height: 50px;  
   }
@@ -81,11 +84,13 @@ a:active {
 
 img {
   margin-top: 60px;
+  margin-left: 60px;
   width: 60%;     
   }
 
 .image {
   text-align: center;
+
   }
 
 li {
@@ -133,11 +138,14 @@ END STYLES FOR 2016- BW PAGES
   }
 
 #mobile-nav {
+
   display: none;
 }
 
-.fa fa-bars {
-  display: none ;
+.fa {
+  padding-top:30px;
+  padding-right: 30px;
+  display:none;
 }
 
 #threelines{
@@ -154,30 +162,34 @@ END STYLES FOR 2016- BW PAGES
 
 @media (max-width: 480px) {
 
-  h1 {
-     font-size: 15px;
-  }
+ 
 
-   nav a {
-    font-size: 8px;
-    display:  block;
-    margin-top: none;
-    margin-bottom: none;
-  }
-
-  nav {
-    display:  block;
-  }
+  
 
 }
 
-@media (max-width: 875px) {
+@media (max-width: 1027px) {
 
-  #large-nav {
+  #defaultnav {
+    text-align: center
+  }
+}
+
+
+@media (max-width: 665px) {
+  /*make sure this is labeled same on all pages*/
+  #defaultnav {
   display: none;
   }
 
- #burger {
+
+
+  nav {
+    float: left;
+  }
+  
+
+.fa {
   display: block;
   float: right;
   margin-top: 5px;
