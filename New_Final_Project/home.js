@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
 
 	$('.fa').click( function () {
@@ -6,3 +5,4 @@ $(document).ready(function () {
 	})
 	
 })
+
