@@ -2,10 +2,12 @@ $(document).ready(function () {
 
 $('#one').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/Judas_16x20.jpg');
+	$('.caption').text(De Hooch)
 })
 
 $('#two').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/sorge_15x19.jpg');
+	$('.caption').text(De Hooch)
 })
 
 $('#three').click (function() {

@@ -7,6 +7,7 @@ body {
 .container {
 /*  margin: 70px 70px 70px 70px;*/
   width: 100%;
+  
 
   }
 
@@ -14,7 +15,7 @@ h1 {
   
   font-size: 23px;
   letter-spacing: 15px;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 0px;
   display: inline-block;
   float: left;
   }
@@ -37,17 +38,18 @@ h5 {
 }
 
 p {
-  font-family: 'Josefin Sans', sans-serif;
-  padding: 10px;
+    font-family: 'Oswald', sans-serif;
   line-height: 20px;
 }
 
+
+
 .first {
   margin-top: 20px;
-  margin-right: 20px;
-  margin-left: 20px;
   margin-bottom: 10px;
   height: 50px;  
+  padding-right: 5%;
+  padding-left: 5%;
   }
 
 
@@ -69,6 +71,15 @@ a  {
   letter-spacing: 5px;
   }
 
+  /* Styles for CV and Bio Text*/
+.text-padding {
+  margin: 50px;
+}
+
+ #bio {
+  line-height: 20px;
+}
+/* End*/
 
  a:hover {
  	  color: red;
@@ -84,8 +95,7 @@ a:active {
 
 img {
   margin-top: 60px;
-  margin-left: 60px;
-  width: 60%;     
+  margin-left: 200px;     
   }
 
 .image {
@@ -124,11 +134,23 @@ img #one, img #two, img #three, img #four, img #five {
       
 }
 
+.caption {
+  text-align: center;
+  padding-right: 65px;
+  font-size: 12px;
+}
+/* Home image */
+ div #homeimage {
+  width: 50%;
+  margin-left:0px;
+ }
+
 /*FOR 2016-BLACK AND WHITE PAGES*/
 
 .big-image {
   text-align: center; 
   margin-top: 200;
+  width: 40%;
 }
 
 END STYLES FOR 2016- BW PAGES
@@ -137,21 +159,38 @@ END STYLES FOR 2016- BW PAGES
   font-size: 10px;
   }
 
-#mobile-nav {
 
-  display: none;
-}
 
+
+
+/*styles for mobile nav*/
 .fa {
   padding-top:30px;
   padding-right: 30px;
   display:none;
 }
 
-#threelines{
-  background-color: black;
-  border: 2px solid black;
+#mobile-nav {
+  width: 100%;
+  display: none;
 }
+
+ #mobile-nav a {
+  display: block;
+  background: rgb(222,222,222);
+  text-align: center;
+  font-size: 10px;
+  color: black;
+  text-decoration: none;
+  padding: 7px;
+  width: 100%;
+  height: 10px;
+  margin: 10px;
+ }
+ #mobile-nav a:hover {
+  background: black;
+  color: white;
+ }
 
 .footer {
   padding: 20px;
