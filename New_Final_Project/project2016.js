@@ -20,5 +20,13 @@ $('#five').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/from_damnation.jpg');
 })
 
+$('.fa').click( function () {
+		$('#mobile-nav').slideToggle();
+	})
+
 })
 
+
+
+	
+	
