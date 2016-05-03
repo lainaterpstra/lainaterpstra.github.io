@@ -3,11 +3,11 @@ $(document).ready(function () {
 
 
 $('#one').click (function() {
-	$('.big-image').attr('src', '../new_work_oils/Grid_DeHooch.jpg');
+	$('.big-image').attr('src', '../new_work_oils/IMG_1929.jpg');
 })
 
 $('#two').click (function() {
-	$('.big-image').attr('src', '../new_work_oils/Edmund_Tarbell_Commission.jpg');
+	$('.big-image').attr('src', '../new_work_oils/caraggio_portrait_webresized.jpg');
 })
 
 $('#three').click (function() {
