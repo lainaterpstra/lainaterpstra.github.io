@@ -12,6 +12,9 @@ $('#three').click (function() {
 	$('.big-image').attr('src', '../black_and_white/black_and_white_3.jpeg');
 })
 
+$('.fa').click( function () {
+		$('#mobile-nav').slideToggle();
+	})
 
 })
 

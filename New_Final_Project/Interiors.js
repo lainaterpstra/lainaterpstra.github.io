@@ -22,6 +22,12 @@ $('#five').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/de_hooch_interior.jpg');
 })
 
+$('#six').click (function() {
+	$('.big-image').attr('src', '../new_work_oils/room_of_resistance_36x36bw.jpg');
+})
+
+
+
 $('.fa').click( function () {
 		$('#mobile-nav').slideToggle();
 	})

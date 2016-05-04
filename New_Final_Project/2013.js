@@ -22,4 +22,8 @@ $('#five').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/de_hooch_interior.jpg');
 })
 
+$('.fa').click( function () {
+		$('#mobile-nav').slideToggle();
+	})
+
 })

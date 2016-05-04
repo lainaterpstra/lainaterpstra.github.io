@@ -20,7 +20,23 @@ $('#four').click (function() {
 })
 
 $('#five').click (function() {
-	$('.big-image').attr('src', '../new_work_oils/de_hooch_interior.jpg');
+	$('.big-image').attr('src', '../new_work_oils/Socrates.jpg');
 })
+
+$('#six').click (function() {
+	$('.big-image').attr('src', '../new_work_oils/untitled_11.5_11.5.jpg');
+})
+
+$('#seven').click (function() {
+	$('.big-image').attr('src', '../paintings_cropped/deHooch_cropped.jpg');
+})
+
+$('#eight').click (function() {
+	$('.big-image').attr('src', '../paintings_cropped/rembrant_square_cropped.jpg');
+})
+
+$('.fa').click( function () {
+		$('#mobile-nav').slideToggle();
+	})
 
 })
