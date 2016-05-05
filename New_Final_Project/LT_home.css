@@ -75,8 +75,12 @@ a  {
   /* Styles for CV and Bio Text*/
 .text-padding {
   margin: 50px;
+  padding-left: 2px;
+  padding-right: 300px;
 }
-
+.cv-padding {
+  margin-left: 35px;
+}
  #bio {
   line-height: 20px;
 }
@@ -128,6 +132,8 @@ ul img {
     margin: 0 auto;
 }
 
+
+
 img #one, img #two, img #three, img #four, img #five {
   margin-top: 110px;
   padding-left: 150px;
@@ -142,6 +148,9 @@ img #one, img #two, img #three, img #four, img #five {
   font-size: 12px;
 }
 
+h6 {
+  padding-left: 40px;
+}
 
 #OtherCaption {
  text-align: center; 
@@ -206,6 +215,13 @@ END STYLES FOR 2016- BW PAGES
   margin-top: 50px;
   font-size: 20px;
   
+}
+
+h4 a {
+  padding:0px;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: red;
 }
 
 
