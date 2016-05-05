@@ -4,6 +4,7 @@ $(document).ready(function () {
 
 $('#one').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/Grid_DeHooch.jpg');
+	$('#OtherCaption').text('From Pieter De Hooch Woman Drinking With Soldiers Oil on Canvas. 30" x 36"')
 })
 
 $('#two').click (function() {

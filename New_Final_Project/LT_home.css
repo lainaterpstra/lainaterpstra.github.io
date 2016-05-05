@@ -54,9 +54,10 @@ p {
 
 
 nav {
-  padding-top: 5px;
+  padding-top: px;
   padding-right: 70px;
   float: right;
+
 
   }
 
@@ -133,12 +134,20 @@ img #one, img #two, img #three, img #four, img #five {
   width: 100%;
       
 }
+/*captions*/
 
 .caption {
   text-align: center;
   padding-right: 65px;
   font-size: 12px;
 }
+
+
+#OtherCaption {
+ text-align: center; 
+}
+
+
 /* Home image */
  div #homeimage {
   width: 50%;
@@ -199,13 +208,7 @@ END STYLES FOR 2016- BW PAGES
   
 }
 
-@media (max-width: 480px) {
 
- 
-
-  
-
-}
 
 @media (max-width: 1027px) {
 
@@ -215,8 +218,8 @@ END STYLES FOR 2016- BW PAGES
 }
 
 
-@media (max-width: 665px) {
-  /*make sure this is labeled same on all pages*/
+@media (max-width: 1142px) {
+ 
   #defaultnav {
   display: none;
   }
