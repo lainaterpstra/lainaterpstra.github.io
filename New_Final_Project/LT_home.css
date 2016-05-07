@@ -253,14 +253,18 @@ h4 a {
   margin-top: 5px;
   }
 
+   #homeimage {
+    width: 80%;
+  }
+
  }
 
  @media (max-width: 477px) {
 
   h1 {
-    font-size: 15px;
+    font-size: 20px;
     letter-spacing: 8px;
-    padding-top: 28px;
+    padding-top: 17px;
     padding-right: 0px;
     padding-left: 0px;
 
@@ -269,7 +273,11 @@ h4 a {
 
   .first {
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 15px;
+  }
+
+ div #homeimage {
+    width: 80%;
   }
 }
 
