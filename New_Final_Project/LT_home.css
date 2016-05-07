@@ -258,13 +258,18 @@ h4 a {
  @media (max-width: 477px) {
 
   h1 {
-    font-size: 10px;
-    letter-spacing: 10px;
+    font-size: 15px;
+    letter-spacing: 8px;
     padding-top: 28px;
     padding-right: 0px;
     padding-left: 0px;
 
 
+  }
+
+  .first {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 }
 
