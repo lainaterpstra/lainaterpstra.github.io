@@ -3,11 +3,12 @@ $(document).ready(function () {
 
 
 $('#one').click (function() {
-	$('.big-image').attr('src', '../new_work_oils/IMG_1929.jpg');
+	$('.big-image').attr('src', '../new_work_oils/las_meninas_80x52.jpg');
+	$('#OtherCaption').text('Velezquez Las Meninas Interpretation. Oil on Canvas, 80 x 52" 2013.')
 })
 
 $('#two').click (function() {
-	$('.big-image').attr('src', '../new_work_oils/caraggio_portrait_webresized.jpg');
+	$('.big-image').attr('src', '../new_work_oils/tangle_72dpi.jpg');
 })
 
 $('#three').click (function() {

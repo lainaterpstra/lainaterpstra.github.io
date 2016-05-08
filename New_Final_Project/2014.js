@@ -3,7 +3,7 @@ $(document).ready(function () {
 
 $('#one').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/Judas_16x20.jpg');
-	$('#OtherCaption').text('16 x 20 Oil on Canvas Paper. 2014')
+	$('#OtherCaption').text('From Pieter De Hooch Woman Drinking With Soldiers Oil on Canvas. 30" x 36"')
 })
 
 $('#two').click (function() {
