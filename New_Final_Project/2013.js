@@ -9,6 +9,7 @@ $('#one').click (function() {
 
 $('#two').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/tangle_72dpi.jpg');
+	$('#OtherCaption').text('Tangle. (Glasgow School of Art) Oil on Canvas. 40" x 60" 2013.')
 })
 
 $('#three').click (function() {
