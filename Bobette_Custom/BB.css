@@ -1,14 +1,15 @@
 body {
-	font-family: 'Lato', sans-serif;
+	 font-family: 'Crimson Text', serif;
+	  	font-size: 16px;
 }
  
 #subtitle {
 
-font-size: 17px;
-letter-spacing: 3px;
+font-size: 16px;
+letter-spacing: 2px;
 padding: 20px;
 padding-bottom: 50px;
-font-family: 'Inconsolata', monospace;
+font-family: 'Crimson Text', serif;
 
 
  }
@@ -21,6 +22,7 @@ font-family: 'Inconsolata', monospace;
     font-size: 15x;
     letter-spacing: 2px;
 	padding-right: 40px;
+
  	padding-bottom: 10px;
  	font-family: 'Inconsolata', monospace;
 
@@ -28,8 +30,9 @@ font-family: 'Inconsolata', monospace;
  	
  
  .navbar-default .navbar-brand {
-
+    
     font-family: 'Inconsolata', monospace;
+    font-family: 'Crimson Text', serif;
  	font-size: 50px;
  	color: black;
  	letter-spacing: 8px;
@@ -39,9 +42,13 @@ font-family: 'Inconsolata', monospace;
 
  .navbar-default .navbar-nav li a  {
   color: black;
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
 
+ }
+
+ nav .navbar .navbar-default {
+ 	background-color: white;
  }
  #quote {
  	font-style: italic;
@@ -52,12 +59,18 @@ font-family: 'Inconsolata', monospace;
  #homebio {
  	
  	padding-top: 30px;
- 	font-size: 14px;
+ 	font-size: 16px;
  	line-height: 28px;
  }
 
  #bookblock {
  	padding-top: 30px;
+ 	font-size: 16px;
+ }
+
+ #dostorysubtitle {
+ 	padding-left:
+ 	font-size: 
  }
 
 
@@ -73,8 +86,7 @@ font-family: 'Inconsolata', monospace;
 
  #bookblurb {
  	padding-right: 40px;
- 	padding-left: 30px;
- 	font-size: 14px;
+ 	padding-left: 50px;
  	line-height: 28px;
 
  }
