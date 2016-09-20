@@ -2,9 +2,7 @@ body {
 	 font-family: 'Crimson Text', serif;
 	  	font-size: 16px;
 }
-h1 {
-	font-size: 19px;
-}
+
  
 #subtitle {
 
@@ -53,11 +51,14 @@ font-family: 'Crimson Text', serif;
  nav .navbar .navbar-default {
  	background-color: white;
  }
+
+
  #quote {
  	font-style: italic;
  	font-size: 15px;
  }
 
+/* HOME PAGE */
 
  #homebio {
  	
@@ -71,6 +72,15 @@ font-family: 'Crimson Text', serif;
  	font-size: 16px;
  }
 
+  #homeevents {
+ 	text-align: center;
+ }
+
+
+ /* BOOK PAGE */
+
+
+
  #dostorysubtitle {
  	padding-left:
  	font-size: 
@@ -83,9 +93,7 @@ font-family: 'Crimson Text', serif;
 
  }
 
- #homeevents {
- 	text-align: center;
- }
+
 
  #bookblurb {
  	padding-right: 40px;
@@ -93,6 +101,8 @@ font-family: 'Crimson Text', serif;
  	line-height: 28px;
 
  }
+
+ /* ABOUT PAGE */
 
  .aboutimage {
  	height: 300px;
@@ -102,4 +112,20 @@ font-family: 'Crimson Text', serif;
  	padding-top:30px;
  	padding-right: 300px;
  }
+
+ /* PRESS PAGE */
+
+ h1 {
+	font-size: 25px;
+}
+
+h2 {
+
+	font-size: 17px;
+	line-height: 20px;
+}
+
+#press {
+	padding-right: 200px;
+}
 
