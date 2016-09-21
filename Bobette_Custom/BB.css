@@ -1,6 +1,8 @@
 body {
 	 font-family: 'Crimson Text', serif;
-	  	font-size: 16px;
+	  font-size: 16px;
+	  
+
 }
 
  
@@ -12,11 +14,12 @@ padding: 20px;
 padding-bottom: 50px;
 font-family: 'Crimson Text', serif;
 
-
  }
+
 
  #bookstore {
  	height: 500px;
+ 	padding-right: 100px;
  }
 
  #subtitle2 {
@@ -25,7 +28,7 @@ font-family: 'Crimson Text', serif;
 	padding-right: 40px;
 
  	padding-bottom: 10px;
- 	font-family: 'Inconsolata', monospace;
+ 	font-family: 'Crimson Text', serif;
 
  }
  	
@@ -106,6 +109,7 @@ font-family: 'Crimson Text', serif;
 
  .aboutimage {
  	height: 300px;
+ 	align: center;
  }
 
  #abouttext {
