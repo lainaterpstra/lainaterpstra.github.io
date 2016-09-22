@@ -13,7 +13,7 @@ body {
 font-size: 18px;
 letter-spacing: 2px;
 padding: 20px;
-padding-bottom: 50px;
+padding-bottom: 10px;
 font-family: 'Crimson Text', serif;
 text-align: center;
 
@@ -46,7 +46,7 @@ text-align: center;
  }
 
  #title {
-font-family: 'EB Garamond', serif;
+font-family: 'Cormorant Garamond', serif;
  	font-size: 50px;
  	text-align: center;
  	letter-spacing: 5px;
@@ -77,9 +77,13 @@ font-family: 'EB Garamond', serif;
 
  #bookstore {
  	height: 500px;
+ 	padding-top: 10px;
  }
   #bookstorecaption {
-  	padding-right: 60px;
+  	padding-top: 150px;
+  	font-size: 14px;
+  	font-style: italic;
+  	line-height: 16px;
   }
 
  #homebio {
@@ -87,7 +91,8 @@ font-family: 'EB Garamond', serif;
  	padding-top: 30px;
  	font-size: 16px;
  	line-height: 28px;
- 	padding-right: 70px;
+ 	padding-right: 60px;
+ 	padding-left: 30px;
  }
 
  #bookblock {
@@ -98,6 +103,10 @@ font-family: 'EB Garamond', serif;
 
   #homeevents {
  	text-align: center;
+ 	padding-top: 34px;
+ }
+ #eventstitle {
+ 	font-size: 15px;
  }
 
 
