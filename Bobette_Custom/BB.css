@@ -1,6 +1,8 @@
 body {
 	 font-family: 'Crimson Text', serif;
 	  font-size: 16px;
+	  background-color: white;
+	  color: black;
 	  
 
 }
@@ -14,15 +16,12 @@ padding: 20px;
 padding-bottom: 50px;
 font-family: 'Crimson Text', serif;
 text-align: center;
-outline: 2px;
+
 
  }
 
 
- #bookstore {
- 	height: 500px;
- 	padding-right: 100px;
- }
+
 
  #subtitle2 {
     font-size: 15x;
@@ -42,7 +41,15 @@ outline: 2px;
  	font-size: 50px;
  	color: black;
  	letter-spacing: 8px;
- 	border-width: 2px;
+ 	
+
+ }
+
+ #title {
+font-family: 'EB Garamond', serif;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	letter-spacing: 5px;
 
  }
 
@@ -50,11 +57,14 @@ outline: 2px;
   color: black;
   font-family: 'Crimson Text', serif;
   font-size: 14px;
+  background-color: white;
 
  }
 
- nav .navbar .navbar-default {
+.navbar-default {
  	background-color: white;
+ 	border: none;
+
  }
 
 
@@ -65,16 +75,25 @@ outline: 2px;
 
 /* HOME PAGE */
 
+ #bookstore {
+ 	height: 500px;
+ }
+  #bookstorecaption {
+  	padding-right: 60px;
+  }
+
  #homebio {
  	
  	padding-top: 30px;
  	font-size: 16px;
  	line-height: 28px;
+ 	padding-right: 70px;
  }
 
  #bookblock {
  	padding-top: 30px;
  	font-size: 16px;
+
  }
 
   #homeevents {
