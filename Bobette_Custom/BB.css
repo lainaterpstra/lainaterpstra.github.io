@@ -4,7 +4,7 @@ body {
 	  background-color: white;
 	  color: black;
 }
- #wrapper {
+ .wrapper {
  	margin-top: 60px;
  }
  
@@ -142,7 +142,8 @@ text-align: center;
 
 #bookimgage {
  	
- 	height: 250px;
+ 	height: 400px;
+ 	padding-left: 100px;
 
  }
 
