@@ -21,8 +21,6 @@ padding: 20px;
 padding-bottom: 10px;
 font-family: 'Crimson Text', serif;
 text-align: center;
-
-
  }
 
 
@@ -60,8 +58,6 @@ text-align: center;
 
  .navbar-default .navbar-nav li a  {
   color: black;
-  font-family: 'Crimson Text', serif;
-  font-size: 14px;
   background-color: white;
 
  }
@@ -69,6 +65,11 @@ text-align: center;
 .navbar-default {
  	background-color: white;
  	border: none;
+ 	text-transform: uppercase;
+ 	font-family: Helvetica;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-size: 10px;
 
  }
 
@@ -117,6 +118,7 @@ text-align: center;
 	font-family: Helvetica;
 	font-weight: bold;
 	letter-spacing: 3px;
+	text-transform: uppercase;
 
 }
 
@@ -158,6 +160,7 @@ text-align: center;
  }
  #eventstitle {
  	font-size:  15px;
+ 	letter-spacing: 2px;
 
  }
 
