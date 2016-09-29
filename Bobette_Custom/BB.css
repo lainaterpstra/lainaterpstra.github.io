@@ -1,12 +1,14 @@
 body {
+
 	 font-family: 'Crimson Text', serif;
 	  font-size: 16px;
-	  background-color: white;
 	  color: black;
+	  /*÷background-image: url(../Bobette_Images/homeportrait.jpg);*/
+	  /*background-size: 70%;*/
 }
 
 a {
-	color: #E37820;
+	color: #BFBC0D;
 }
 
  .wrapper {
@@ -56,12 +58,6 @@ text-align: center;
  }
 
 
- .navbar-default .navbar-nav li a  {
-  color: black;
-  background-color: white;
-
- }
-
 .navbar-default {
  	background-color: white;
  	border: none;
@@ -71,6 +67,12 @@ text-align: center;
 	letter-spacing: 3px;
 	font-size: 10px;
 
+ }
+
+ .navbar-default .navbar-nav li a  {
+  color: black;
+  background-color: white;
+  border-left: 2px solid #BFBC0D;
  }
 
 
@@ -112,6 +114,8 @@ text-align: center;
 
 /* HOME PAGE */
 
+
+
 .h1links {
 
 	font-size: 11px;
@@ -122,34 +126,26 @@ text-align: center;
 
 }
 
- #bookstore {
- 	height: 400px;
+ #homeimage {
+ 	height: 450px;
  	padding-top: 10px;
+ 	align: center;
+ 	margin: 0 auto;
  }
-  div #bookstorecaption {
-  	padding-top: 
-  	font-size: 15px;
-  	font-style: italic;
-  	
-  }
+ 
 
  #homebio {
  	
  	padding-top: 30px;
+ 	padding-right: 80px;
  	font-size: 16px;
  	line-height: 28px;
- 	padding-right: 50px;
- 	padding-left: 20px;
+ 
  }
 
- #bookblock {
- 	padding-top: 30px;
- 	font-size: 16px;
 
- }
 
  #booklink {
-  color: blac;
   
   font-weight: bold;
  }
@@ -161,6 +157,16 @@ text-align: center;
  #eventstitle {
  	font-size:  15px;
  	letter-spacing: 2px;
+
+ }
+
+ #linkssection {
+ 	padding-bottom: 50px;
+ }
+
+ #homebookimage {
+ 	text-align: center;
+ 	height: 300px;
 
  }
 
