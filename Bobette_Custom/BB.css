@@ -170,6 +170,15 @@ text-align: center;
 
  }
 
+ #linkssection {
+	font-size: 25px;
+
+ }
+ i {
+ 	padding: 10px;
+ 	padding-top: 20px;
+ }
+
 
  /* BOOK PAGE */
 
@@ -227,6 +236,6 @@ h2 {
 }
 
 #press {
-	padding-right: 200px;
+	/*padding-right: 200px;*/
 }
 
