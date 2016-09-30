@@ -1,0 +1,246 @@
+body {
+
+	 font-family: 'Crimson Text', serif;
+	  font-size: 16px;
+	  color: black;
+	  /*÷background-image: url(../Bobette_Images/homeportrait.jpg);*/
+	  /*background-size: 70%;*/
+}
+
+a {
+	color: #BFBC0D;
+}
+
+ .wrapper {
+ 	margin-top: 60px;
+ }
+ 
+#subtitle {
+
+font-size: 18px;
+letter-spacing: 2px;
+padding: 20px;
+padding-bottom: 10px;
+font-family: 'Crimson Text', serif;
+text-align: center;
+ }
+
+
+
+
+ #subtitle2 {
+    font-size: 15x;
+    letter-spacing: 2px;
+	padding-right: 40px;
+ 	padding-bottom: 10px;
+ 	font-family: 'Crimson Text', serif;
+
+ }
+ 	
+ 
+ .navbar-default .navbar-brand {
+    
+ 
+    font-family: 'Cormorant Garamond', serif;
+ 	font-size: 50px;
+ 	color: black;
+ 	letter-spacing: 5px;
+ 	
+
+ }
+
+ #title {
+	font-family: 'Cormorant Garamond', serif;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	letter-spacing: 5px;
+
+ }
+
+
+.navbar-default {
+ 	background-color: white;
+ 	border: none;
+ 	font-family: Helvetica;
+	letter-spacing: 3px;
+	font-size: 10px;
+	padding-bottom: 30px;
+
+ }
+
+ .navbar-default .navbar-nav li a  {
+  color: black;
+  background-color: white;
+  border-left: 2px solid #BFBC0D;
+  text-transform: uppercase;
+  	font-weight: bold;
+ }
+
+
+ #quote {
+ 	font-style: italic;
+ 	font-size: 15px;
+ }
+/*VERSION 2 HOME */
+
+img #subtitle_v2 {
+
+width: 100px;
+	   
+}
+
+#title_v2{ 
+    font-family: 'Inconsolata', monospace;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+/* Home Version 3*/
+
+ #workkkk {
+text-align: center;
+}
+
+.v3 {
+	color: #BFBC0D;
+	font-size: 11px;
+	font-family: Helvetica;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+ #v3booklink {
+	color: #BFBC0D;
+}
+
+/* HOME PAGE */
+
+
+
+.h1links {
+
+	font-size: 11px;
+	font-family: Helvetica;
+	font-weight: bold;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+
+}
+
+ #homeimage {
+ 	height: 470px;
+ 	padding-top: 10px;
+ 	align: center;
+ 	margin: 0 auto;
+ }
+ 
+
+ #homebio {
+ 	
+ 	padding-top: 30px;
+ 	padding-right: 80px;
+ 	font-size: 16px;
+ 	line-height: 28px;
+ 
+ }
+
+
+
+ #booklink {
+  
+  font-weight: bold;
+ }
+
+  #homeevents {
+ 	text-align: center;
+ 	padding-top: 34px;
+ }
+ #eventstitle {
+ 	font-size:  15px;
+ 	letter-spacing: 2px;
+
+ }
+
+ #linkssection {
+ 	padding-bottom: 50px;
+ }
+
+ #homebookimage {
+ 	text-align: center;
+ 	height: 300px;
+
+ }
+
+ #linkssection {
+	font-size: 25px;
+
+ }
+ i {
+ 	padding: 10px;
+ 	padding-top: 20px;
+ }
+
+
+ /* BOOK PAGE */
+#storyguru {
+	padding-top: 30px;
+	font-size: 17px;
+	letter-spacing: 1px;
+}
+
+
+ #dostorysubtitle {
+ 	padding-left:
+ 	font-size: 
+ }
+
+
+#bookimgage {
+ 	
+ 	height: 300px;
+ 	padding-left: 100px;
+
+ }
+
+
+
+ #bookblurb {
+ 	padding-right: 40px;
+ 	padding-left: 10px;
+ 	line-height: 28px;
+
+ }
+ /* LECTURES Page */
+
+ #lecturesquote {
+ 	padding-right: 20px;
+ }
+
+ /* ABOUT PAGE */
+
+ .aboutimage {
+ 	height: 300px;
+ 	align: center;
+ }
+
+ #abouttext {
+ 	padding-top:30px;
+ 	padding-right: 300px;
+ }
+
+ /* PRESS PAGE */
+
+ h1 {
+	font-size: 25px;
+}
+
+h2 {
+
+	font-size: 17px;
+	line-height: 20px;
+}
+
+#press {
+	/*padding-right: 200px;*/
+}
+
