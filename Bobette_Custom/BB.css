@@ -10,9 +10,15 @@ body {
 a {
 	color: #BFBC0D;
 }
+a i {
+	color: black;
+}
 
  .wrapper {
  	margin-top: 60px;
+ }
+ .spacer {
+ 	height: 100px;
  }
  
 #subtitle {
@@ -182,6 +188,11 @@ text-align: center;
 
  /* BOOK PAGE */
 
+ #roughtrade {
+
+ 	height: 500px;
+ }
+
 
 
  #dostorysubtitle {
@@ -200,9 +211,7 @@ text-align: center;
 
 
  #bookblurb {
- 	padding-right: 40px;
- 	padding-left: 10px;
- 	line-height: 28px;
+	padding-top: 30px;
 
  }
  /* LECTURES Page */
