@@ -40,11 +40,11 @@ text-align: center;
  
  .navbar-default .navbar-brand {
     
-    font-family: 'Inconsolata', monospace;
-    font-family: 'Crimson Text', serif;
+ 
+    font-family: 'Cormorant Garamond', serif;
  	font-size: 50px;
  	color: black;
- 	letter-spacing: 8px;
+ 	letter-spacing: 5px;
  	
 
  }
@@ -61,9 +61,7 @@ text-align: center;
 .navbar-default {
  	background-color: white;
  	border: none;
- 	text-transform: uppercase;
  	font-family: Helvetica;
-	font-weight: bold;
 	letter-spacing: 3px;
 	font-size: 10px;
 
@@ -73,6 +71,8 @@ text-align: center;
   color: black;
   background-color: white;
   border-left: 2px solid #BFBC0D;
+  text-transform: uppercase;
+  	font-weight: bold;
  }
 
 
