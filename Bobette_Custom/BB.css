@@ -14,6 +14,10 @@ a i {
 	color: black;
 }
 
+.navbar-default .navbar-nav li a:hover {
+	background-color:
+}
+
  .wrapper {
  	margin-top: 60px;
  }
@@ -120,7 +124,11 @@ text-align: center;
 
 /* HOME PAGE */
 
-
+button /*.btn .btn-default .btn-md */{
+	text-transform: uppercase;
+	margin-top: 30px;
+	border: 2px;
+}
 
 .h1links {
 
@@ -150,7 +158,6 @@ text-align: center;
  }
 
 
-
  #booklink {
   
   font-weight: bold;
@@ -172,8 +179,8 @@ text-align: center;
 
  #homebookimage {
  	text-align: center;
- 	height: 250px;
- 	margin-top: 100px;
+ 	height: 280px;
+ 	margin-top: 60px;
 
 
  }
@@ -192,7 +199,7 @@ text-align: center;
 
  #roughtrade {
 
- 	height: 500px;
+ 	height: 550px;
  }
 
  #dostorysubtitle {
@@ -209,13 +216,16 @@ text-align: center;
  }
 
  #bookthumb {
- 	height: 200px;
+ 	height: 180px;
+ 	padding-left: 30px;
+     margin-top: 80px;
  }
 
 
 
  #bookblurb {
 	padding-top: 30px;
+
 
  }
  /* LECTURES Page */
