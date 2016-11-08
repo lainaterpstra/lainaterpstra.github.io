@@ -141,10 +141,11 @@ button /*.btn .btn-default .btn-md */{
 }
 
  #homeimage {
- 	height: 450px;
+ 	/*height: 450px;*/
  	padding-top: 10px;
- 	align: center;
- 	margin: 0 auto;
+ 	padding-left: 30px;
+ 	/*align: center;*/
+ 	/*margin: 0 auto;*/
  }
  
 
@@ -260,5 +261,12 @@ h2 {
 
 #press {
 	/*padding-right: 200px;*/
+}
+
+@media (max-width: 634px) {
+
+  #defaultnav {
+    text-align: center
+  }
 }
 
