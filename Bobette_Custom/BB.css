@@ -178,6 +178,10 @@ button /*.btn .btn-default .btn-md */{
  	text-align: center;
  }
 
+ #DOlogo {
+ 	height: 100px;
+ }
+
  #homebookimage {
  	text-align: center;
  	height: 280px;
@@ -265,8 +269,8 @@ h2 {
 
 @media (max-width: 634px) {
 
-  #defaultnav {
-    text-align: center
+  #mobilehomebio {
+    padding-right: 0;
   }
 }
 

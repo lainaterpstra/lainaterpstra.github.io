@@ -1,0 +1,36 @@
+
+body {
+	font-family: 'Crimson Text', serif;
+	 font-size: 16px;
+	letter-spacing: 4px;
+	 color: white;
+	  background-color: black;
+}
+
+
+.navbar-default {
+ 	background-color: black;
+ 	border: none;
+ 	font-family: 'Crimson Text', serif;
+ 	color: white;
+	letter-spacing: 3px;
+	font-size: 16px;
+
+ }
+
+ .navbar-header .navbar-brand {
+ 	font-size: 30px;
+ 	color: white;
+ }
+
+#spacer {
+	padding-top: 100px;
+}
+
+#mellowyellow {
+	height: 180px;
+}
+
+#residents_top_margin {
+	padding-top: 30px;
+}
