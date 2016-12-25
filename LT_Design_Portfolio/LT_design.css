@@ -3,34 +3,84 @@ body {
 	font-family: 'Crimson Text', serif;
 	 font-size: 16px;
 	letter-spacing: 4px;
-	 color: white;
-	  background-color: black;
+	 color: black;
+	  background-color: white;
+}
+
+a 
+{
+	color: black;
+}
+/*HOME PAGE */
+#hometitle 
+{
+align: center;
 }
 
 
+.text-center
+{
+	align: center;
+}
+ .col-md-3 
+ {
+ 	padding: 20px;
+ 	margin: 40px;
+
+ }
+
 .navbar-default {
- 	background-color: black;
+ 	background-color: white;
  	border: none;
- 	font-family: 'Crimson Text', serif;
- 	color: white;
+ /*	font-family: 'Oswald', sans-serif;*/
+ 	color: black;
 	letter-spacing: 3px;
-	font-size: 16px;
+	font-size: 12px;
 
  }
 
  .navbar-header .navbar-brand {
- 	font-size: 30px;
- 	color: white;
+ 	 font-size: 19px;
+  letter-spacing: 10px;
+ 	font-family: 'Oswald', sans-serif;
+ 	color: black;
+ 	height: 20px;
+ }
+
+ .col-md-3 {
+ 	/*margin: 10px;*/
+ }
+
+img #ltlogotest {
+ 	height: 20px;
+ }
+ .navbar-brand > img {
+ 	height: 95px;
  }
 
 #spacer {
-	padding-top: 100px;
+	padding-top: 40px;
 }
 
-#mellowyellow {
-	height: 180px;
+#subtitle {
+	padding-top: 70px;
+	font-size: 12px;
 }
+#mellowyellow {
+	height: 200px;
+
+/*	border: 1px solid black;*/
+
+}
+
+
+
 
 #residents_top_margin {
-	padding-top: 30px;
+	padding-top: 15px;
+}
+.titles 
+{
+/*	align: center;
+	padding-left: 100px;*/
 }
