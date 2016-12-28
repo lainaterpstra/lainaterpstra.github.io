@@ -9,7 +9,10 @@ body {
 
 
 a {
-	color: #BFBC0D;
+	color: #ed421c;
+/*	color: #ed421c;*/
+	/*	color: #BFBC0D*/;
+
 }
 a i {
 	color: black;
@@ -79,7 +82,8 @@ text-align: center;
  .navbar-default .navbar-nav li a  {
   color: black;
   background-color: white;
-  border-left: 3px solid #BFBC0D;
+  border-left: 3px solid #ed421c;
+/*   border-left: 3px solid #d6cb04;*/
   text-transform: uppercase;
   font-weight: bold;
   height: 10px;
@@ -192,6 +196,7 @@ button /*.btn .btn-default .btn-md */{
 
  #linkssection {
 	font-size: 25px;
+/*	color: #8cedf2;*/
 
  }
  i {
@@ -223,7 +228,7 @@ button /*.btn .btn-default .btn-md */{
  #bookthumb {
  	height: 180px;
  	padding-left: 30px;
-    margin-top: 80px;
+    margin-top: 40px;
  }
 
 
@@ -248,7 +253,7 @@ button /*.btn .btn-default .btn-md */{
  /* ABOUT PAGE */
 
  .aboutimage {
- 	height: 350px;
+ 	height: 370px;
  	align: center;
  }
 
@@ -267,6 +272,20 @@ h2 {
 
 	font-size: 17px;
 	line-height: 20px;
+}
+
+#luna {
+	font-style: italic;
+	font-size: 12px;
+	margin-left: 90px;
+
+}
+.quote {
+	font-style: italic;
+	font-size: 17px;
+}
+.quotecredit {
+	font-size: 14px;
 }
 
 #press {
