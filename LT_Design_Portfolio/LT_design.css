@@ -95,3 +95,10 @@ img #ltlogotest {
 	letter-spacing: 0;
 font-family: 'Crimson Text', serif;
 }
+
+
+@media (max-width: 766px) {
+ 
+  ul {
+padding-top: 70px;
+  }
