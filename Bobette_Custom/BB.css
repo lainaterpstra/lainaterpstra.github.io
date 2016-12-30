@@ -9,7 +9,8 @@ body {
 
 
 a {
-	color: #ed421c;
+	color: #1cdbed;
+/*	color: #ed421c;*/
 /*	color: #ed421c;*/
 	/*	color: #BFBC0D*/;
 
@@ -82,8 +83,9 @@ text-align: center;
  .navbar-default .navbar-nav li a  {
   color: black;
   background-color: white;
-  border-left: 3px solid #ed421c;
+/*  border-left: 3px solid #ed421c;*/
 /*   border-left: 3px solid #d6cb04;*/
+  border-left: 3px solid #1cdbed;;
   text-transform: uppercase;
   font-weight: bold;
   height: 10px;
