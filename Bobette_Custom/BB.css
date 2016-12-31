@@ -8,11 +8,16 @@ body {
 }
 
 
-a {
-	color: #1cdbed;
-/*	color: #ed421c;*/
-/*	color: #ed421c;*/
-	/*	color: #BFBC0D*/;
+a {/*
+	color: #1cdbed;  aqua*/
+/*	color: #c40707;*/ /*darker red*/
+	/*color: #ed421c; red bright*/
+	color: #f72a2a; red less orange
+
+/*/*	color: #BFBC0D*/
+	/*color: #e8e822; - yellow */*/
+/*	color: #77a5b7;*/
+
 
 }
 a i {
@@ -83,9 +88,11 @@ text-align: center;
  .navbar-default .navbar-nav li a  {
   color: black;
   background-color: white;
-/*  border-left: 3px solid #ed421c;*/
-/*   border-left: 3px solid #d6cb04;*/
-  border-left: 3px solid #1cdbed;;
+  border-left: 3px solid #f72a2a;
+  /* border-left: 3px solid #d6cb04; original green*/
+/*  border-left: 3px solid #1cdbed; baby blue; */
+ /*   border-left: 3px solid #e8e822;chartruse yellow*/
+    /*border-left: 3px solid #c40707; dark red */
   text-transform: uppercase;
   font-weight: bold;
   height: 10px;
