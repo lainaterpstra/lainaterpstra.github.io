@@ -16,13 +16,18 @@ $('#three').click (function() {
 })
 
 $('#four').click (function() {
-	$('.big-image').attr('src', '../new_work_oils/IMG_1929.jpg');
+	$('.big-image').attr('src', '../new_work_oils/DeHooch_unfinished_new.jpg');
 	$('#OtherCaption').text('Untitled (De Hooch Variation) Oil on canvas paper. 23" x 23" 2015.')
 })
 
 $('#five').click (function() {
 	$('.big-image').attr('src', '../new_work_oils/from_damnation.jpg');
 	$('#OtherCaption').text('Untitled: From Bela Tarr Damnation Oil on Canvas. 40" x 47" 2015')
+})
+
+$('#six').click (function() {
+	$('.big-image').attr('src', '../new_work_oils/new_pink22.jpg');
+	$('#OtherCaption').text('')
 })
 
 $('.fa').click( function () {
