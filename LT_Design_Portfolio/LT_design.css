@@ -96,6 +96,12 @@ img #ltlogotest {
 font-family: 'Crimson Text', serif;
 }
 
+/* bobette's website page*/
+
+#bobettescreenshots {
+	height: 400px;
+}
+
 
 @media (max-width: 766px) {
  
