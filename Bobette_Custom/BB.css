@@ -235,8 +235,9 @@ button /*.btn .btn-default .btn-md */{
  }
 
  #bookthumb {
- 	height: 180px;
+ 	height: 200px;
  	padding-left: 30px;
+ 	padding-bottom: 30px;
     margin-top: 40px;
  }
 
