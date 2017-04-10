@@ -314,3 +314,13 @@ h2 {
   }
 }
 
+
+ @media (max-width: 767px) {
+
+ .navbar-default .navbar-nav li a {
+   height: 25px;
+
+
+  }
+ }
+
