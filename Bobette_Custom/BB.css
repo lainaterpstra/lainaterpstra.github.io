@@ -312,6 +312,7 @@ h2 {
   #mobilehomebio {
     padding-right: 0;
   }
+
 }
 
 
@@ -322,5 +323,11 @@ h2 {
 
 
   }
- }
 
+  
+ }
+ @media (max-width: 767px) {
+ img#homeimage {
+  	padding-left: 0px;
+  }
+ }
