@@ -30,6 +30,22 @@ $('#six').click (function() {
 	$('#OtherCaption').text('')
 })
 
+$('#seven').click (function() {
+	$('.big-image').attr('src', '../new_work_oils/Entombment_lores.jpg');
+	$('#OtherCaption').text('')
+})
+
+$('#eight').click (function() {
+	$('.big-image').attr('src', '../new_work_oils/Socrates_variation1_lores.jpg');
+	$('#OtherCaption').text('')
+})
+
+$('#nine').click (function() {
+	$('.big-image').attr('src', '../new_work_oils/artolympia2_lores.jpg');
+	$('#OtherCaption').text('')
+})
+
+
 $('.fa').click( function () {
 		$('#mobile-nav').slideToggle();
 	})

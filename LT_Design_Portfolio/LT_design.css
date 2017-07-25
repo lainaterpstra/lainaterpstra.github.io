@@ -76,6 +76,7 @@ img #ltlogotest {
 #subtitle {
 	padding-top: 70px;
 	font-size: 12px;
+	align: center;
 }
 #mellowyellow {
 	height: 200px;
@@ -83,6 +84,9 @@ img #ltlogotest {
 
 /*	border: 1px solid black;
 */
+}
+#logo1 {
+	align: center;
 }
 
 
@@ -114,8 +118,12 @@ font-family: 'Crimson Text', serif;
 }
 /* print page */
 
-#poster {
+.poster {
 	height: 700px;
+}
+
+#landscapety {
+	height: 350px;
 }
 
 
@@ -124,3 +132,17 @@ font-family: 'Crimson Text', serif;
   ul {
 padding-top: 70px;
   }
+
+  @media (max-width: 1142px) {
+ 
+  img #home_graphic_mobile {
+  	display: none;
+  }
+}
+
+   @media (max-width: 994px) {
+ 
+  img #home_graphic {
+  	display: none;
+  }
+}
