@@ -10,6 +10,8 @@ body {
 a 
 {
 	color: black;
+	font-style: Courier;
+
 }
 /*HOME PAGE */
 #hometitle 
@@ -17,11 +19,10 @@ a
 align: center;
 }
 
-#homegraphic {
+#mobile_home_graphic {
 
-	padding-left: 100px;
+height: 230px;
 
-height: 300px;
 }
 
 
@@ -43,7 +44,12 @@ height: 300px;
  	color: black;
 	letter-spacing: 3px;
 	font-size: 12px;
+	font-style: Courier;
 
+ }
+
+ .navbar-default a {
+ 		font-style: Courier;
  }
 
  .navbar-header .navbar-brand {
@@ -57,8 +63,19 @@ small {
 	font-size: 12px;
   	padding-top: 80px;
   	display: inline;
+  	font-family: 'Oswald; sans-serif' 
+  	letter-spacing: 10px;
 
   }
+
+
+#mobile_home_graphic {
+
+height: 230px;
+
+}
+
+
 
 
 img #ltlogotest {
@@ -74,9 +91,19 @@ img #ltlogotest {
 }
 
 #subtitle {
-	padding-top: 70px;
+	padding-top: 80px;
 	font-size: 12px;
 	align: center;
+	letter-spacing: 4px;
+	font-family: 'Crimson Text; serif'; 
+}
+
+#homesubtitle {
+	font-family: 'Oswald';
+	letter-spacing: 10px;
+	font-size: 13px;
+	padding-top: 20px;
+	
 }
 #mellowyellow {
 	height: 200px;
