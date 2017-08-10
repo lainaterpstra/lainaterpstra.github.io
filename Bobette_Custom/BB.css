@@ -345,6 +345,16 @@ h2 {
 
   }
 
+
+ @media (max-width: 767px) {
+
+ a div #mobiletitle { 
+   padding-top: 30px;
+
+
+  }
+
+
   
  }
  @media (max-width: 767px) {
