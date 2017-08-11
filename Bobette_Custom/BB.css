@@ -227,6 +227,7 @@ button /*.btn .btn-default .btn-md */{
 
  #murchposter {
  	height: 750px;
+ 	max-width: 100%;
  }
 
  #doccredits {
@@ -338,26 +339,6 @@ h2 {
 
 
  @media (max-width: 767px) {
-
- .navbar-default .navbar-nav li a {
-   height: 25px;
-
-
-  }
-
-
- @media (max-width: 767px) {
-
- a div #mobiletitle { 
-   padding-top: 30px;
-
-
-  }
-
-
-  
- }
- @media (max-width: 767px) {
  img#homeimage {
   	padding-left: 0px;
   }
@@ -366,11 +347,34 @@ h2 {
 
  @media (max-width: 767px) {
 
+ 	 .navbar-default .navbar-nav li a {
+   height: 40px;
+   font-size: 15px;
+   padding-top: 20px;
+
+
+  }
+
+
+.navbar-default .navbar-brand { 
+  font-size: 25px;
+
+
+  }
+
+  div #doccredits.col-md-6  {
+  	padding-top: 20px;
+  }
+
 #roughtrade {
    height: auto;
    padding-bottom: 
 
 
+  }
+
+  #murchposter {
+  	height: auto;
   }
 .aboutimage {
 	height: auto;
