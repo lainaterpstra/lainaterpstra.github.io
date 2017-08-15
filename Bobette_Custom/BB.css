@@ -226,8 +226,10 @@ button /*.btn .btn-default .btn-md */{
  }
 
  #murchposter {
- 	height: 750px;
+ 	height: 650px;
  	max-width: 100%;
+ 	padding-left: 50px;
+
  }
 
  #doccredits {
@@ -309,8 +311,13 @@ h2 {
 
 }
 
+ #FoxStudiosQuote {
+  	padding-top: 30px;
+
+  }
+
 #firequote {
-	padding-top: 200px;
+	padding-top: 80px;
 }
 .quote {
 	font-style: italic;
@@ -349,7 +356,7 @@ h2 {
 
  	 .navbar-default .navbar-nav li a {
    height: 40px;
-   font-size: 15px;
+   font-size: 10px;
    padding-top: 20px;
 
 
@@ -360,6 +367,24 @@ h2 {
   font-size: 25px;
 
 
+  }
+
+  .spacer {
+  	height: 20px;
+  }
+
+
+
+  #firequote {
+  	padding-top: 20px;
+  }
+
+  #mobilefirequote {
+  	margin: 0 auto;
+  }
+
+  #merrittquote {
+  	padding-top: 20px;
   }
 
   div #doccredits.col-md-6  {
