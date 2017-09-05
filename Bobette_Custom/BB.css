@@ -7,6 +7,27 @@ body {
 	  /*background-size: 70%;*/
 }
 
+#kickstarter {
+  background-color: #d6c840;
+  font-size: 17px;
+  letter-spacing: 2px;
+ /* padding-top: 40px;
+  padding-bottom: 20px;*/
+  border: solid black 1px;
+}
+#bannersmfont {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+#bannerbold {
+  font-style: bold;
+}
+
+#borderbutton {
+  border: 1px solid black;
+  padding: 10px;
+}
 
 a {/*
 	color: #1cdbed;  aqua*/
