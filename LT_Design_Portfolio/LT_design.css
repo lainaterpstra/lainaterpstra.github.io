@@ -82,7 +82,25 @@ height: 230px;
 	height:40px;
 }
 
+/*PRINT PG */
 
+#print_OCH {
+	height: 400px;
+	padding: 20px;
+	
+}
+#print_poster {
+	height: 400px;
+	padding: 20px;
+}
+
+#paddingleft {
+	padding-left: 30px;
+}
+
+.text-justify {
+	padding-left: 75px;
+}
 
 img #ltlogotest {
  	height: 20px;
